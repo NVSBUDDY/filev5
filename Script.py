@@ -108,11 +108,9 @@ ID - <code>{}</code>
 Name - {}
 """
 
-    START_TXT = """<b>Hay {},
-
-I'm ⚡️ Powerful Auto-Filter Bot...
-😎 You Can Use Me As A Auto-filter in Your Group ....
-Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...😎
-⚠️ More Help Check Help Button Below
+    START_TXT = """<b>𝙷𝙴𝙻𝙾 {},
+    
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 
+𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂
 
 ©️Mantained Bʏ  @NVSHDMOVIE</b>"""

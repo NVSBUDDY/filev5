@@ -141,7 +141,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('♻️ This Movie Not Found my Database ♾♾♾♾♾♾♾♾♾♾♾♾♾♾ ♻️ Request to admin')
+            k = await query.message.edit('♻️ This Movie Not Found my Database ♻️ Request to admin')
             await asyncio.sleep(15)
             await k.delete()
 
@@ -444,7 +444,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🌴 Movie Channel 🌴', url='https://t.me/NVSHDMOVIE'),
+            InlineKeyboardButton('🌴 Channel 🌴', url='https://t.me/NVSHDMOVIE'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
